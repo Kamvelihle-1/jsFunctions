@@ -7,7 +7,7 @@ function multiply(num1,num2) {
 }
 multiply(20,34)
 function tableOfFive(num) {
-    let multFive = num*5
-    console.log(multFive);
+   return num*5  
 }
-tableOfFive(15)
+let multFive = tableOfFive(15)
+console.log(multFive);
